@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.forest {
+  background-image: url(./assets/forest.jpg);
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
+
+.control-panel {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+}
